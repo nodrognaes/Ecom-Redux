@@ -7,6 +7,7 @@ import CartItem from '../CartItem';
 import Auth from '../../utils/auth';
 //TODO: remove the line below for 'useStoreContext. We will use React-Redux to generate state and dispatch method
 // import { useStoreContext } from '../../utils/GlobalState';
+
 //TODO: import { useDispatch, useSelector } from 'react-redux';
 import { useDispatch, useSelector } from 'react-redux';
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from '../../utils/actions';
@@ -17,10 +18,11 @@ const stripePromise = loadStripe('pk_test_TYooMQauvdEDq54NiTphI7jx');
 const Cart = () => {
   // TODO: remove the line below. We will use useDispatch and useSelector to generate state and dispatch
   // const [state, dispatch] = useStoreContext();
-  // TODO: Create a const variable 'dispatch' and assign the returned value from useDispatch()
 
+  // TODO: Create a const variable 'dispatch' and assign the returned value from useDispatch()
+  const dispatch = useDispatch();
   // TODO: create a const varailbe 'state' and assign the returned value from useSelector(...)
-  
+  const state = useSelector(state => state);
   // Hint: search 28-Stu_Mini-Project for how to create the two variables, dispatch and state
 
 
