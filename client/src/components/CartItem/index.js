@@ -2,7 +2,9 @@ import React from 'react';
 
 //TODO: remove the line below for 'useStoreContext. We will use React-Redux to generate state and dispatch method
 // import { useStoreContext } from '../../utils/GlobalState';
+
 //TODO: import { useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
