@@ -15,7 +15,8 @@ import spinner from "../../assets/spinner.gif";
 
 function ProductList() {
   // TODO: remove the line below. We will use useDispatch and useSelector to generate state and dispatch
-  const [state, dispatch] = useStoreContext();
+  // const [state, dispatch] = useStoreContext();
+  
   // TODO: Create a const variable 'dispatch' and assign the returned value from useDispatch()
   const dispatch = useDispatch();
   // TODO: create a const varailbe 'state' and assign the returned value from useSelector(...)
