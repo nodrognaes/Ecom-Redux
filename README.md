@@ -16,3 +16,8 @@ Signup, Logout, and Login:
 Product info, Adding to cart, Removing from cart, and Checking out:
 
 ![cartgif](https://user-images.githubusercontent.com/48900910/125899224-7fb83891-2f9f-41d8-9693-3a05e41f4f10.gif)
+
+
+## Deployed App: ##
+
+https://ecom-redux.herokuapp.com/
