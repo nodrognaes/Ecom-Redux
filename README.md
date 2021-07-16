@@ -8,7 +8,7 @@
 
 ## Demo ##
 
-Signup, Logout, and Login:
+Signup, Logout, and Login (inc. credential error):
 
 ![logingif](https://user-images.githubusercontent.com/48900910/125899146-ddfc64b9-d373-4ce8-ac85-8a4f0672a75a.gif)
 
