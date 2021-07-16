@@ -6,7 +6,7 @@ This application allows users to browse items in an online store and add to thei
 
 ## How to use: ##
 
-When visiting the site, the user will be able to create an account, which will automatically log them in. The main page displays all available products, which can be added to the cart 
+When visiting the site, the user will be able to create an account, which will automatically log them in. The main page displays all available products, which can be added to the cart by clicking the Add to cart button. Clicking on a product will bring up more detailed product information, as well as options to add and remove from the cart. The cart will pop up in the upper right corner and can also be accessed by clicking on the cart icon. When the user is ready to check out, they will be taken to the payment page via Stripe. 
 
 ## Demo ##
 
